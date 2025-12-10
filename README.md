@@ -27,9 +27,13 @@ To continuously gather fresh tracks for the recommendation model, I implemented 
 
 ### Exploratory Data Analysis (EDA)
 Dataset Summary:
+
 Songs: 170,653
+
 Artists: 28,680
+
 Genres: 2,973
+
 Key Findings:
 A significant increase in song loudness over the years, correlating with higher energy levels in music.
 Identification of distinct trends and patterns in music characteristics across different time periods and genres.
