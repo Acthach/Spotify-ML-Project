@@ -23,9 +23,7 @@ This project aims to build a personalized music recommendation system using data
 
 
 ### Data Mining
-
-
-
+To continuously gather fresh tracks for the recommendation model, I implemented a backoff-and-retry mechanism for scraping Spotify public playlists. This system automatically pauses, retries, and recovers from API rate limits, ensuring reliable extraction of track features such as popularity, danceability, acousticness, energy, instrumentalness, liveness, loudness, speechiness, tempo, and time signature. I intentionally chose this approach over using a Kaggle dataset because my previous projects had already demonstrated my ability to build models from clean, pre-curated data; this time, I wanted to engage directly with the raw, messy data returned by the API to gain deeper experience in handling real-world data workflows.
 
 ### Exploratory Data Analysis (EDA)
 
