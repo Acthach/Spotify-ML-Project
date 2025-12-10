@@ -39,7 +39,40 @@ A significant increase in song loudness over the years, correlating with higher 
 Identification of distinct trends and patterns in music characteristics across different time periods and genres.
 
 ### Model Creation
+1. Logistic Regression (Baseline Model)
 
+I began with a Logistic Regression model to establish a baseline for comparison. After training on the feature set, I evaluated performance using predicted labels and a confusion matrix to understand the model’s strengths and weaknesses.
+This baseline helped determine whether more complex models were necessary.
+
+2. Decision Tree Classifier + GridSearchCV
+
+To experiment with nonlinear modeling, I implemented a Decision Tree Classifier and optimized it using a GridSearchCV pipeline.
+The grid search tuned hyperparameters such as:
+
+max_depth (tree complexity)
+
+This allowed the model to adapt to the structure of the Spotify feature data while helping avoid overfitting.
+
+3. Random Forest Classifier + GridSearchCV
+
+Building on the Decision Tree experiments, I trained a Random Forest Classifier, again using GridSearchCV for hyperparameter tuning.
+Parameters explored included:
+
+max_depth
+
+n_estimators (number of trees)
+
+The ensemble method improved stability and performance by reducing model variance and better capturing relationships between track features.
+
+4. Scaled Decision Tree Pipeline
+
+To incorporate feature scaling and ensure consistent preprocessing, I built a pipeline using:
+
+StandardScaler
+
+DecisionTreeClassifier (max_depth=30)
+
+This pipeline standardized inputs before training, reducing feature imbalance and improving generalization on the test set.
 ### Conclusion
 
 
