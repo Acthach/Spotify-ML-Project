@@ -15,10 +15,10 @@ This project aims to build a personalized music recommendation system using data
 
 
 ## Table of Contents
-2. Data
-3. EDA
-4. Model Creation
-5. Conclusion
+1. Data
+2. EDA
+3. Model Creation
+4. Conclusion
    
 
 
