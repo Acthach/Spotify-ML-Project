@@ -16,34 +16,22 @@ This project focuses on developing a personalized music recommendation system po
 4. Model Creation
 5. Conclusion
    
-# Project Overview
+### Project Overview
 
 The aim of this project is to build a comprehensive music recommender system that boosts user engagement and long-term loyalty on Spotify. By analyzing song attributes, artist connections, genre trends, and listening behavior, the system generates personalized recommendations. Beyond identifying similar music, it also introduces slightly diverse options to expand users’ musical horizon. 
 ---
 
-# Data
+### Data Mining
 
 
 
-# Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
-# Data Mining Problems
+### Model Creation
 
-### 1. User Segmentation
-How can we group users based on their listening habits to support personalized recommendations and tailored marketing strategies?
-
-### 2. Artist and Song Connectivity
-Which artists or tracks act as connectors across communities or genres, shaping how users move through Spotify’s catalog?
-
-### 3. Content-Based Recommendation
-How can song-level features be used to suggest relevant and engaging songs for each user?
-
----
+### Conclusion
 
 
-# Conclusion
-
-### Key Takeaways
 
 
 
