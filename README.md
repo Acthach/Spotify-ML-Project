@@ -18,8 +18,6 @@ This project focuses on developing a personalized music recommendation system po
    
 ### Project Overview
 
-The aim of this project is to build a comprehensive music recommender system that boosts user engagement and long-term loyalty on Spotify. By analyzing song attributes, artist connections, genre trends, and listening behavior, the system generates personalized recommendations. Beyond identifying similar music, it also introduces slightly diverse options to expand users’ musical horizon. 
----
 
 ### Data Mining
 
