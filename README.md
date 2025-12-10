@@ -63,7 +63,7 @@ StandardScaler DecisionTreeClassifier (max_depth=30) This pipeline standardized 
 
 
 ### Conclusion
-
+After evaluating multiple models, the Random Forest Classifier emerged as the most effective choice for this Spotify recommendation system. Unlike Logistic Regression—which struggled with the nonlinear nature of audio features—and standalone Decision Trees—which tended to overfit—Random Forest provided the best balance of accuracy, stability, and generalization. Its ensemble structure allowed it to capture complex relationships between track attributes such as energy, danceability, loudness, and acousticness, while remaining resilient to noise and variability in the raw Spotify data. Additionally, its built-in feature importance metrics offered valuable interpretability, helping reveal which musical characteristics contributed most to the model’s predictions. Overall, Random Forest delivered the most reliable performance and aligned best with the real-world complexity of music recommendation tasks.
 
 
 
